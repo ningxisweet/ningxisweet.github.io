@@ -1,0 +1,18 @@
+I"�<h2 id="2020-10-26-140121-jekyll">2020-10-26 14:01:21 jekyll</h2>
+<p>https://jekyllrb.com/
+开始在博客模板里找到的jekyllcn.com。推荐的命令行无法在windows下使用。</p>
+
+<p>然后按照这个指南
+https://jekyllrb.com/docs/installation/windows/</p>
+
+<h2 id="cmder">cmder</h2>
+<p>https://medium.com/talpor/windows-terminal-cmder-%EF%B8%8F-573e6890d143
+https://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/
+两篇推荐文章和 官网地址如下
+https://cmder.net/</p>
+
+<p>我用这个的最大原因是git bash的windows 安装突然无法启动
+cmder能正常使用。集成功能正常。
+暂时还只用了最初级的功能</p>
+
+:ET
