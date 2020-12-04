@@ -1,4 +1,4 @@
-I"�<h2 id="2020-10-26-140121-jekyll">2020-10-26 14:01:21 jekyll</h2>
+I"E<h2 id="2020-10-26-140121-jekyll">2020-10-26 14:01:21 jekyll</h2>
 <p>Q 如何在本地预览github page，提高生产效率
 https://jekyllrb.com/
 开始在博客模板里找到的jekyllcn.com。推荐的命令行无法在windows下使用。</p>
@@ -13,7 +13,13 @@ https://jekyllrb.com/docs/installation/windows/</p>
 </blockquote>
 
 <p>Q 本地预览的page怎么和github 网页上传后的不一样？
-多半是模板的问题</p>
+仔细看trace</p>
+<blockquote>
+  <p>Deprecation: You appear to have pagination turned on, but you haven’t included the <code class="language-plaintext highlighter-rouge">jekyll-paginate</code> gem. Ensure you have <code class="language-plaintext highlighter-rouge">plugins: [jekyll-paginate]</code> in your configuration file.
+于是我就在_config.yaml文件里加上了一行
+plugins: [jekyll-paginate]
+然后重新预览，OK</p>
+</blockquote>
 
 <h2 id="cmder">cmder</h2>
 <p>https://medium.com/talpor/windows-terminal-cmder-%EF%B8%8F-573e6890d143
